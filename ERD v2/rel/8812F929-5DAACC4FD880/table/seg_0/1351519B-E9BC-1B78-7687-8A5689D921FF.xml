@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1351519B-E9BC-1B78-7687-8A5689D921FF" name="PROVIDER_ORDER">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:57:10 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROVIDERID" id="37AF83D9-95EC-F9C1-EFCD-3E6C2A25C66B">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 20:02:50 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D59436-6422-FE2C-B6B8-CEE885114FAD" referredColumn="8D9EDE39-A813-28B6-2F22-FD565683A928"/>
+</associations>
+</Column>
+<Column name="ORDERID" id="145B4658-15EB-8A75-F3D3-06F342D212AF">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 20:02:50 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F01E0BFE-4115-D0B2-A729-27E3CE51C268" referredColumn="9585E991-8A02-A0CA-F51D-846FE3B9465E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AB3B33F-1CCD-3883-BB9F-1FC412DB6068" name="PROVIDER_ORDER_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 20:03:23 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37AF83D9-95EC-F9C1-EFCD-3E6C2A25C66B"/>
+<colUsage columnID="145B4658-15EB-8A75-F3D3-06F342D212AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="200CD5DE-AAF0-6472-1814-BEF855170561" name="PROVIDER_ORDER_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:42:49 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37AF83D9-95EC-F9C1-EFCD-3E6C2A25C66B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A360055D-B01F-F53F-30BF-0BD5EA8A27BB" name="PROVIDER_ORDER_ORDERS_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:43:52 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="145B4658-15EB-8A75-F3D3-06F342D212AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

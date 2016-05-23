@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="619AD56A-4D52-68BB-DF1A-C919AA81047C" name="PRACTICE">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:18:41 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GROUPPACID" id="3F6FCE9C-C1E4-6239-6783-EF7E11547A4A">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:19:14 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrgName" id="87445132-D2E6-E3C6-582E-E21A15E6C7F3">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:20:13 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="239882DB-CADC-011B-A7D9-46D174A6C3DE">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:20:38 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="FC12CE76-C285-0532-8F63-3664FBD3D2E9">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:21:14 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="State" id="F9272263-AF2D-50AC-A7AC-7FF7CC32D29C">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:21:14 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZipCode" id="D7B65FEC-D3E5-C3D9-A8BB-3900821BCECB">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:21:14 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99B92AD8-4ADC-AFF4-B235-1644D19DA485" name="PRACTICE_PK">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:19:14 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6FCE9C-C1E4-6239-6783-EF7E11547A4A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

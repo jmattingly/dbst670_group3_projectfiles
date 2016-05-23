@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1479158-7311-92D2-DC29-AEFDA496F2A7" name="PHYSICIAN">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:45:57 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PACID" id="8127160E-9455-44CD-09BD-62F7E528CEAF">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LastName" id="E2926938-3BD2-E5AB-EDCF-F0042A806AF1">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FirstName" id="100099BD-F05E-23E2-C2C3-7453D903844E">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MI" id="F166F648-2D77-CFCF-AA1A-996EDA1CDCCF">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="AA3CA6B3-7BCE-7B35-26E9-C779834985ED">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Specialty" id="4698E45E-3EB1-6E11-A329-BD132B9B2F67">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5675AA5-33AE-693E-7C5B-34D65AFFFE74" name="Physician_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8127160E-9455-44CD-09BD-62F7E528CEAF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

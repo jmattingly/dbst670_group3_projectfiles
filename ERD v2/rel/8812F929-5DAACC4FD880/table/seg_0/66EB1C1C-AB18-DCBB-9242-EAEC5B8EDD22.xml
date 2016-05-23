@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66EB1C1C-AB18-DCBB-9242-EAEC5B8EDD22" name="PAYMENT">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:53:46 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PAYMENTID" id="6CA92D5E-BEF0-43D2-8736-C0E38CDC6EC9">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERID" id="B39BC689-EDFC-80F0-08C8-AC75A32BE3F3">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D72A111B-FE5A-8324-DCB6-1A1F76A88101" referredColumn="9585E991-8A02-A0CA-F51D-846FE3B9465E"/>
+</associations>
+</Column>
+<Column name="CARD_EXP_DATE" id="FEE2E6AB-99B7-8073-122D-527508FACFCF">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARD_NUMBER" id="1084D8D4-A3E1-E7E0-9C05-201CEFF38738">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_AMOUNT" id="452FFCD0-042E-6BC5-E17D-9E164D9BF5AD">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAYMENT_METHOD" id="0F1193DA-6F6E-AE55-3420-E19778B5F950">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94A61500-7D1A-7EC2-17A8-25180E0F17BA" name="PAYMENT_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:56:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA92D5E-BEF0-43D2-8736-C0E38CDC6EC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B8262F6-10B0-8B21-8D12-062A79438AB6" name="PAYMENT_ORDERS_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:44:19 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B39BC689-EDFC-80F0-08C8-AC75A32BE3F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

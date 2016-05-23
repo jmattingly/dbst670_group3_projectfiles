@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D856F88-DD13-7D36-2276-D3D6434E4989" name="PROVIDER_SPENDING">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:34:40 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SPENDINGID" id="0F6C5623-9E6A-D9C8-C2FF-D9A4271B7136">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:41:50 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVIDERID" id="19E80C45-3270-A7C1-8C3E-FB43A7D22201">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDB22278-A0DE-275A-3508-61E10FB444AA" referredColumn="8D9EDE39-A813-28B6-2F22-FD565683A928"/>
+</associations>
+</Column>
+<Column name="Period" id="D1A05B97-0FE1-DB68-6FF0-7A50B26EAF37">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ClaimType" id="33B107CD-5531-F0B0-64CE-8D56723BD8FE">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avg_Spending_Hopital" id="B691805C-94AC-4120-603B-C12B3DA54E77">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avg_Spending_St" id="BF6CCB4C-4EF0-2C3B-743C-9CF80123506A">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Avg_Spending_Nat" id="BD0AACF6-10F1-CAC0-6A14-1D9228A18651">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pct_Spending_Hospital" id="FB5F2D09-E7F4-424B-B4EE-97628C106BD7">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pct_Speding_St" id="287A23BF-B66A-2F7B-A2C5-5CCF15A059AF">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pct_Spending_St" id="094E6FCA-7DDE-9679-CC7B-BD7C2D7F05C2">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:39:27 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9BF253AF-CC56-E661-C95C-2AB2900F0B7A" name="PROVIDER_SPENDING_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:40:06 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F6C5623-9E6A-D9C8-C2FF-D9A4271B7136"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29DA8F0E-ADB6-07A4-4934-D9E625FEF420" name="PROVIDER_SPENDING_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:42:01 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19E80C45-3270-A7C1-8C3E-FB43A7D22201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49E63AA3-BE9F-A4DE-A66B-B281B3F7FC33" name="CUSTOMER_ZIP">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:39:31 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZIPCODE" id="0540E800-FE8B-01B9-4F67-17B001244836">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:40:24 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="8FB15FCE-2A8E-51C7-11C6-B7AD839B38C2">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:40:24 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="01312897-7FB2-4196-7A8C-20ECA984EAC8">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:40:24 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE4FA929-6CC4-7730-2471-5C8940823A30" name="CUSTOMER_ZIP_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:40:24 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0540E800-FE8B-01B9-4F67-17B001244836"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

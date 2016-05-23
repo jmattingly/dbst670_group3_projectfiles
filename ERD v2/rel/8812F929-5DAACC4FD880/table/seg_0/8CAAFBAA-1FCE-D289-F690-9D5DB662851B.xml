@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CAAFBAA-1FCE-D289-F690-9D5DB662851B" name="ProviderRating">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:08:59 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FedProviderNum" id="4DA8FEA4-8FD5-3EB9-169B-2A34B7D1AEAB">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:10:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProviderName" id="5A244914-A4E5-218F-F59E-779744592051">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:10:12 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OverAllRating" id="76DB1EC5-1A2D-7200-ACD6-22095ED7B9D7">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HealthInspectionRating" id="8CDDF668-C1C4-6433-2551-76E2BB6266F2">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OMRating" id="D60EC125-92B4-FA4F-15A4-3F283C503CC3">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StaffingRating" id="2496F09C-EB45-1845-E687-8F9807A40E5B">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RNStaffRating" id="5D1ED933-1153-701B-B688-884B78404DA0">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7425EC3B-B7B6-8DE6-D12A-A2D006F74CED" name="ProviderRating_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:14:48 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DA8FEA4-8FD5-3EB9-169B-2A34B7D1AEAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

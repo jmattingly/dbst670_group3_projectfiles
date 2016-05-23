@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C55FA08D-2899-B7A9-7565-BD4782A355CF" name="ORDERS">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:49:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDERID" id="9585E991-8A02-A0CA-F51D-846FE3B9465E">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:51:31 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUSTOMERID" id="B9916728-F48F-80DA-DA3E-D99E9137CAD8">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:51:31 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3B92A50-8F66-84F7-756D-6EE323819070" referredColumn="4652837A-E147-010A-0147-35DA5839E9BA"/>
+</associations>
+</Column>
+<Column name="ORDERDATE" id="6218BF9B-5B48-D55D-81E3-016DD8EABA51">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:51:31 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A13758F0-530B-71EC-351A-28B15CE346B7" name="ORDERS_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:51:31 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9585E991-8A02-A0CA-F51D-846FE3B9465E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E99E2A7-468C-55BE-0B6A-1FDB2B4A0743" name="ORDERS_CUSTOMER_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:44:02 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9916728-F48F-80DA-DA3E-D99E9137CAD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

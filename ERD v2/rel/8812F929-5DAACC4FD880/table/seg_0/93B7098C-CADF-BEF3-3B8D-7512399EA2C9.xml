@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93B7098C-CADF-BEF3-3B8D-7512399EA2C9" name="CUSTOMER">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:30:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CUSTOMERID" id="4652837A-E147-010A-0147-35DA5839E9BA">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRSTNAME" id="73F4D1A5-3A32-2E90-7F0C-155732B26938">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LASTNAME" id="47644D5F-B065-D4C0-7B93-51547756374A">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONENO" id="ABE02696-46CF-21BC-6FC6-32AD2E2E9FB9">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="580300FF-D2EC-0748-73F6-A0E4723A5670">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZIPCODE" id="B2BA7778-0339-0E0F-EE0A-762C9F8F6D50">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0CDE6EE-E9AA-F86E-143A-33A0E409A25E" referredColumn="0540E800-FE8B-01B9-4F67-17B001244836"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE15C8D1-9C9A-B975-1CA8-81F846E1E063" name="CUSTOMER_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-21 19:38:53 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4652837A-E147-010A-0147-35DA5839E9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49D4CD92-3426-667F-0EC5-09EB3C241BC2" name="CUSTOMER_CUSTOMER_ZIP_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:44:32 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2BA7778-0339-0E0F-EE0A-762C9F8F6D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

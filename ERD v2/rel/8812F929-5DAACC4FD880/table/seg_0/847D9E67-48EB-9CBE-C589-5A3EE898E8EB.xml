@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="847D9E67-48EB-9CBE-C589-5A3EE898E8EB" name="PROVIDER">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:02:47 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROVIDERID" id="8D9EDE39-A813-28B6-2F22-FD565683A928">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACID" id="81D4604B-974F-A2EF-C34A-285209FA81B0">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:19:32 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HospitalName" id="22956305-600D-5FB8-A18C-5F1283CFC66F">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="85DD7D0F-3891-F4B7-B2FD-5B7667174BFD">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY" id="EA235C14-6C25-1C44-DCCA-4AC182E555E0">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATE" id="87D54F57-9D8A-1B24-267B-DAFB0DCF2F1D">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZipCode" id="BA854707-02A2-753D-BA9B-3DF0C38D5BC0">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="County" id="EFA4A143-587F-5B76-D55D-84D999F89ECB">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="C008F727-DCCF-56BC-83F3-7D41284589E4">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HospitalType" id="04379083-0FD2-B427-011A-7E717C21913C">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OwnershipType" id="3EFBCAB6-B114-ECC1-E486-48D946C2E8E3">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:10:58 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Physician_PhysicianID" id="593D02B1-36AE-7700-DB75-35FC04EE13E1">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-22 16:40:38 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E9EA7A01-7C53-3C3D-FA01-5A77FA2F1D4B" referredColumn="A0C998BE-D1ED-27AF-8508-C86AA1E47868"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE0B9D12-20D2-27C8-2DBE-81C762A1BD7B" name="PROVIDER_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:11:10 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D9EDE39-A813-28B6-2F22-FD565683A928"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="72FEB5BB-9FDF-D505-8DBE-1E9D1E6A454D" name="PROVIDER_Physician_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 00:47:56 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="593D02B1-36AE-7700-DB75-35FC04EE13E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

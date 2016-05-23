@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="758D3A05-6B68-D5C9-5C94-AE918175494B" name="PROVIDERLIST">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:06:59 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FedProviderNum" id="E92399CA-A807-FC22-F23F-F7CD4582B233">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1BC3E06-405C-2BBB-958E-160DB69C5F00" referredColumn="4DA8FEA4-8FD5-3EB9-169B-2A34B7D1AEAB"/>
+</associations>
+</Column>
+<Column name="ProviderID" id="B97E9FAD-3ACE-DA06-E670-398CA09710C4">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F9EBC5-560C-A3A1-9899-80A91DE25252" referredColumn="8D9EDE39-A813-28B6-2F22-FD565683A928"/>
+</associations>
+</Column>
+<Column name="ProcessingDate" id="FC2D6DB5-9399-229D-BA2C-7B87CED5E4DA">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3821E589-AA97-8BC7-2467-9A75DCE2BC82" name="PROVIDERLIST_PK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:08:51 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92399CA-A807-FC22-F23F-F7CD4582B233"/>
+<colUsage columnID="B97E9FAD-3ACE-DA06-E670-398CA09710C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96BE62FF-D8E7-F9D5-044B-CCE4C9D1C654" name="PROVIDERLIST_ProviderRating_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:15:04 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E92399CA-A807-FC22-F23F-F7CD4582B233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25647206-9C44-3875-454B-9637E5B76D35" name="PROVIDERLIST_PROVIDER_FK">
+<createdBy>Isaak Morales</createdBy>
+<createdTime>2016-05-22 01:15:17 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B97E9FAD-3ACE-DA06-E670-398CA09710C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

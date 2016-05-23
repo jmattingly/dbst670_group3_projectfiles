@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B1AA2BF-9D6B-16EA-83B7-B573519B9C0A" name="GROUP_PHYSICIANS">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:22:17 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PACID" id="FC0CCC1E-078D-B917-ACCC-7A25F7DC5580">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:23:34 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E69BCE99-C4A0-6C09-B78C-C9DC745869AC" referredColumn="8127160E-9455-44CD-09BD-62F7E528CEAF"/>
+</associations>
+</Column>
+<Column name="GROUPPACID" id="5C1DB8D0-79BB-2F76-D9EC-E415FD5593BB">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:23:34 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57CCD433-6393-9245-B13C-204AF512A9AE" referredColumn="3F6FCE9C-C1E4-6239-6783-EF7E11547A4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F49A201-8BCB-8ACD-3CC5-71D0FD6ECBC4" name="GROUP_PHYSICIANS_PK">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:23:35 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0CCC1E-078D-B917-ACCC-7A25F7DC5580"/>
+<colUsage columnID="5C1DB8D0-79BB-2F76-D9EC-E415FD5593BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78081688-7F90-0A0B-A29D-56FF79B5B687" name="GROUP_PHYSICIANS_PHYSICIAN_FK">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:24:02 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC0CCC1E-078D-B917-ACCC-7A25F7DC5580"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB22828-72B9-9B22-36B7-0F114386467D" name="GROUP_PHYSICIANS_PRACTICE_FK">
+<createdBy>w1shM4sT3r</createdBy>
+<createdTime>2016-05-23 01:24:24 UTC</createdTime>
+<ownerDesignName>ERD v2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C1DB8D0-79BB-2F76-D9EC-E415FD5593BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
